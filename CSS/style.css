@@ -1,0 +1,198 @@
+*{
+    background-color: black;
+    font-family: "Lora", serif;
+}
+h1{
+    font-size: 60px ;
+    font-weight: 700;
+    color: white;
+    line-height: 1em;
+    background: none;
+}
+h2{
+    font-size: 40px ;
+    font-weight: 700;
+    color: white;
+    background: none;
+}
+h3{
+    font-size: 25px ;
+    font-weight: 500;
+    color: rgb(206, 169, 17);
+    background: none;
+}
+p{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+    background: none;
+}
+button{
+    background: none;
+    font-size: 18px;
+    color: rgb(206, 169, 17);
+    font-weight: 500;
+    padding: 10px 18px;
+    border: none;
+}
+.row-content{
+    background: none;
+}
+header{
+    height: 15vh;
+}
+.header-menu ul{
+    color: aliceblue !important;
+}
+.hero-section{
+    background-image: url(/images/backgroud.png);
+    background-size: cover;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    height: 85vh;
+    width: 100%;
+}
+/* .services:hover{
+    background: yellow;
+    background-position: left bottom;
+    transition: .5s ease-out;
+} */
+.services i{
+    color: yellow;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.services h4{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+.services p{
+    font-size: 18px;
+    text-align: left;
+}
+.numbers h4{
+    color: white;
+    font-size: 16px;
+    font-size: 400;
+}
+.line{
+    margin-top: 40px;
+    border: 1px solid rgb(255, 255, 255);
+}
+/* Our Client Section */
+
+.image-wrap{
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+    margin: 50px auto;
+}
+.image-wrap img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    object-position: top center;
+    transition: all 1s ease-out;
+}
+.image-wrap:hover img {
+    object-position: bottom center;
+}
+.image-wrap h3{
+    text-align: center;
+    margin-top: 20px;
+}
+/* Contact Us Section */
+.formbox{
+    
+    background-image: url(/images/bg-form.png);
+    background-position: center; 
+     background-size: cover; 
+}
+.form-field{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid white;
+    background: none;
+}
+.form-field::placeholder{
+    padding-left: 10px;
+    color: white;
+}
+#from-textarea{
+    height: 200px;
+}
+.submitbtn{
+   color: black;
+   padding: 5px 60px;
+   background: yellow;
+   border: none;
+   font-size: 18px;
+   margin-top: 10px;
+   display: block;
+   margin: 10px auto;
+}
+.info i{
+    color: yellow;
+}
+.info h5{
+    color: white;
+    font-size: 18px;
+}
+
+/* testinomail section */
+.testinomail p{
+    text-align: center;
+}
+.testinomail h5{
+    color: white;
+}
+.accordion{
+    background: none !important;
+}
+.accordion-button{
+    background: none !important;
+    /* color: white !important; */
+}
+.footer-items h4{
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.footer-items ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.footer-logo img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+.footer-contact h4{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    padding-bottom: 20px;
+}
+.footer-contact h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    line-height: 1.2em;
+}
+.footer-contact i{
+    margin-right: 5px;
+    color: yellow;
+}
+h6{
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+}
